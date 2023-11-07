@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    min-height: 100vh;
+}
+.hero{
+    align-self: start;
+}
+.footer__wrapper{
+    align-self: end;
+}
+.text{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.submit-btn{
+    margin-top: 10px;
+}
+label{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+input,textarea{
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 3px;
+    background-color: #eee;
+    border: 1.2px solid #212529;
+}
